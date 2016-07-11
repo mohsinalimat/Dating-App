@@ -8,17 +8,68 @@
 
 import UIKit
 import CoreData
+import Mixpanel
+import FBSDKCoreKit
+import FBSDKLoginKit
+import Fabric
+import TwitterKit
+import Firebase
+import OAuthSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var navigationController: UINavigationController?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+        Fabric.with([Twitter.self])
+        
+        let mixpanel = Mixpanel.sharedInstanceWithToken("eea743c8c06c09db361391e7a7f02015")
+        mixpanel.track("App launched")
+        
+        FIRApp.configure()
+        
+        //Batch.startWithAPIKey("DEV577B171987416C3DD0A5E0F8927")
+        
+        //BatchPush.registerForRemoteNotifications()
+        
+        let settings: UIUserNotificationSettings =
+            UIUserNotificationSettings(forTypes: [.Alert, .Badge, .Sound], categories: nil)
+        application.registerUserNotificationSettings(settings)
+        application.registerForRemoteNotifications()
         return true
     }
+    
+    func applicationHandleOpenURL(url: NSURL) {
+        if (url.host == "oauth-callback") {
+            OAuthSwift.handleOpenURL(url)
+        } else {
+            // Google provider is the only one wuth your.bundle.id url schema.
+            OAuthSwift.handleOpenURL(url)
+        }
+    }
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool
+    {
+        FBSDKApplicationDelegate.sharedInstance().application(application, openURL: url, sourceApplication: sourceApplication, annotation: annotation)
+        applicationHandleOpenURL(url)
+        return true
+    }
+    
+    func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool {
+        applicationHandleOpenURL(url)
+        return FBSDKApplicationDelegate.sharedInstance().application(
+            app,
+            openURL: url,
+            sourceApplication: options["UIApplicationOpenURLOptionsSourceApplicationKey"] as! String,
+            annotation: nil)
+    }
+
 
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -39,8 +90,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillTerminate(application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-        // Saves changes in the application's managed object context before the application terminates.
+        
+        let loginManager: FBSDKLoginManager = FBSDKLoginManager()
+        loginManager.logOut()
+        
+        let credential = FIRFacebookAuthProvider.credentialWithAccessToken(FBSDKAccessToken.currentAccessToken().tokenString)
+        
+        FIRAuth.auth()?.signInWithCredential(credential) { (user, error) in
+            // ...
+        }
         self.saveContext()
     }
 
@@ -105,6 +163,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 abort()
             }
         }
+    }
+    
+    func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError?) {
+        if let error = error {
+            print(error.localizedDescription)
+            return
+        }
+        // ...
     }
 
 }

@@ -11,3 +11,4 @@
 
 
 #endif /* Bridging_Header_h */
+#import "MBProgressHUD.h"

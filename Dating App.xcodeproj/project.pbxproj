@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77AB800F2D1B74672A0F475A /* Pods_Dating_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1430B7DFF772785AE3887DE9 /* Pods_Dating_App.framework */; };
 		DA0227F11D33069A00AA5A99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0227F01D33069A00AA5A99 /* AppDelegate.swift */; };
-		DA0227F31D33069A00AA5A99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0227F21D33069A00AA5A99 /* ViewController.swift */; };
+		DA0227F31D33069A00AA5A99 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0227F21D33069A00AA5A99 /* MainScreenViewController.swift */; };
 		DA0227F61D33069A00AA5A99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0227F41D33069A00AA5A99 /* Main.storyboard */; };
 		DA0227F91D33069A00AA5A99 /* Dating_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA0227F71D33069A00AA5A99 /* Dating_App.xcdatamodeld */; };
 		DA0227FB1D33069A00AA5A99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0227FA1D33069A00AA5A99 /* Assets.xcassets */; };
 		DA0227FE1D33069A00AA5A99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0227FC1D33069A00AA5A99 /* LaunchScreen.storyboard */; };
 		DA0228091D33069A00AA5A99 /* Dating_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0228081D33069A00AA5A99 /* Dating_AppTests.swift */; };
 		DA0228141D33069A00AA5A99 /* Dating_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0228131D33069A00AA5A99 /* Dating_AppUITests.swift */; };
+		DA0228221D330BA100AA5A99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA0228211D330BA100AA5A99 /* GoogleService-Info.plist */; };
+		DA0228241D331A4F00AA5A99 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0228231D331A4F00AA5A99 /* SignUpViewController.swift */; };
+		DA0228261D331AA700AA5A99 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0228251D331AA700AA5A99 /* LogInViewController.swift */; };
+		DA0228281D331EBA00AA5A99 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0228271D331EBA00AA5A99 /* PhotoViewController.swift */; };
+		DA02282A1D331EEB00AA5A99 /* SignUpSocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0228291D331EEB00AA5A99 /* SignUpSocialViewController.swift */; };
+		DA0228331D331FFA00AA5A99 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA02282C1D331FFA00AA5A99 /* Helper.swift */; };
+		DA0228341D331FFA00AA5A99 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA02282D1D331FFA00AA5A99 /* CommonUtils.swift */; };
+		DA0228351D331FFA00AA5A99 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA02282E1D331FFA00AA5A99 /* RotateImage.swift */; };
+		DA0228361D331FFA00AA5A99 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA02282F1D331FFA00AA5A99 /* Constants.swift */; };
+		DA0228371D331FFA00AA5A99 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0228301D331FFA00AA5A99 /* Extensions.swift */; };
+		DA0228381D331FFA00AA5A99 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0228311D331FFA00AA5A99 /* AppState.swift */; };
+		DA0228391D331FFA00AA5A99 /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0228321D331FFA00AA5A99 /* AEXML.swift */; };
+		DA02283E1D33218C00AA5A99 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02283C1D33218C00AA5A99 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1430B7DFF772785AE3887DE9 /* Pods_Dating_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dating_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9484B0C7CF147D2B1A64BDFF /* Pods-Dating App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dating App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dating App/Pods-Dating App.release.xcconfig"; sourceTree = "<group>"; };
 		DA0227ED1D33069900AA5A99 /* Dating App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dating App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0227F01D33069A00AA5A99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA0227F21D33069A00AA5A99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA0227F21D33069A00AA5A99 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		DA0227F51D33069A00AA5A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA0227F81D33069A00AA5A99 /* Dating_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dating_App.xcdatamodel; sourceTree = "<group>"; };
 		DA0227FA1D33069A00AA5A99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +65,22 @@
 		DA02280F1D33069A00AA5A99 /* Dating AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dating AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0228131D33069A00AA5A99 /* Dating_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dating_AppUITests.swift; sourceTree = "<group>"; };
 		DA0228151D33069A00AA5A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA0228211D330BA100AA5A99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA0228231D331A4F00AA5A99 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DA0228251D331AA700AA5A99 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		DA0228271D331EBA00AA5A99 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		DA0228291D331EEB00AA5A99 /* SignUpSocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpSocialViewController.swift; sourceTree = "<group>"; };
+		DA02282C1D331FFA00AA5A99 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		DA02282D1D331FFA00AA5A99 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		DA02282E1D331FFA00AA5A99 /* RotateImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
+		DA02282F1D331FFA00AA5A99 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DA0228301D331FFA00AA5A99 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DA0228311D331FFA00AA5A99 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		DA0228321D331FFA00AA5A99 /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
+		DA02283A1D33202600AA5A99 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		DA02283B1D33218C00AA5A99 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DA02283C1D33218C00AA5A99 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E389BF352955A9D7D974BACC /* Pods-Dating App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dating App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dating App/Pods-Dating App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AB800F2D1B74672A0F475A /* Pods_Dating_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +109,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83E4E80986907D874B798B9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1430B7DFF772785AE3887DE9 /* Pods_Dating_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B78252133154F8D139949032 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E389BF352955A9D7D974BACC /* Pods-Dating App.debug.xcconfig */,
+				9484B0C7CF147D2B1A64BDFF /* Pods-Dating App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA0227E41D33069900AA5A99 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +133,8 @@
 				DA0228071D33069A00AA5A99 /* Dating AppTests */,
 				DA0228121D33069A00AA5A99 /* Dating AppUITests */,
 				DA0227EE1D33069900AA5A99 /* Products */,
+				B78252133154F8D139949032 /* Pods */,
+				83E4E80986907D874B798B9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +151,18 @@
 		DA0227EF1D33069A00AA5A99 /* Dating App */ = {
 			isa = PBXGroup;
 			children = (
+				DA02282B1D331FE100AA5A99 /* Helper Files */,
 				DA0227F01D33069A00AA5A99 /* AppDelegate.swift */,
-				DA0227F21D33069A00AA5A99 /* ViewController.swift */,
+				DA0227F21D33069A00AA5A99 /* MainScreenViewController.swift */,
+				DA0228231D331A4F00AA5A99 /* SignUpViewController.swift */,
+				DA0228291D331EEB00AA5A99 /* SignUpSocialViewController.swift */,
+				DA0228251D331AA700AA5A99 /* LogInViewController.swift */,
+				DA0228271D331EBA00AA5A99 /* PhotoViewController.swift */,
 				DA0227F41D33069A00AA5A99 /* Main.storyboard */,
 				DA0227FA1D33069A00AA5A99 /* Assets.xcassets */,
 				DA0227FC1D33069A00AA5A99 /* LaunchScreen.storyboard */,
 				DA0227FF1D33069A00AA5A99 /* Info.plist */,
+				DA0228211D330BA100AA5A99 /* GoogleService-Info.plist */,
 				DA0227F71D33069A00AA5A99 /* Dating_App.xcdatamodeld */,
 			);
 			path = "Dating App";
@@ -128,6 +186,32 @@
 			path = "Dating AppUITests";
 			sourceTree = "<group>";
 		};
+		DA02282B1D331FE100AA5A99 /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA02283A1D33202600AA5A99 /* Bridging-Header.h */,
+				DA02282C1D331FFA00AA5A99 /* Helper.swift */,
+				DA02282D1D331FFA00AA5A99 /* CommonUtils.swift */,
+				DA02282E1D331FFA00AA5A99 /* RotateImage.swift */,
+				DA02282F1D331FFA00AA5A99 /* Constants.swift */,
+				DA0228301D331FFA00AA5A99 /* Extensions.swift */,
+				DA0228311D331FFA00AA5A99 /* AppState.swift */,
+				DA0228321D331FFA00AA5A99 /* AEXML.swift */,
+				DA02283D1D33218C00AA5A99 /* MBProgressHUD-master */,
+			);
+			name = "Helper Files";
+			sourceTree = "<group>";
+		};
+		DA02283D1D33218C00AA5A99 /* MBProgressHUD-master */ = {
+			isa = PBXGroup;
+			children = (
+				DA02283B1D33218C00AA5A99 /* MBProgressHUD.h */,
+				DA02283C1D33218C00AA5A99 /* MBProgressHUD.m */,
+			);
+			name = "MBProgressHUD-master";
+			path = "../../Snagged - Fixed/Connect App/Library/MBProgressHUD-master";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA0228181D33069A00AA5A99 /* Build configuration list for PBXNativeTarget "Dating App" */;
 			buildPhases = (
+				8EABC17054EC9BD59B3B7D7A /* [CP] Check Pods Manifest.lock */,
 				DA0227E91D33069900AA5A99 /* Sources */,
 				DA0227EA1D33069900AA5A99 /* Frameworks */,
 				DA0227EB1D33069900AA5A99 /* Resources */,
+				D2B345F1362F3383E379D1C0 /* [CP] Embed Pods Frameworks */,
+				CC12E38DCE788A3989685DF6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +321,7 @@
 			files = (
 				DA0227FE1D33069A00AA5A99 /* LaunchScreen.storyboard in Resources */,
 				DA0227FB1D33069A00AA5A99 /* Assets.xcassets in Resources */,
+				DA0228221D330BA100AA5A99 /* GoogleService-Info.plist in Resources */,
 				DA0227F61D33069A00AA5A99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +342,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8EABC17054EC9BD59B3B7D7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC12E38DCE788A3989685DF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dating App/Pods-Dating App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B345F1362F3383E379D1C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dating App/Pods-Dating App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA0227E91D33069900AA5A99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0227F31D33069A00AA5A99 /* ViewController.swift in Sources */,
+				DA0227F31D33069A00AA5A99 /* MainScreenViewController.swift in Sources */,
+				DA0228361D331FFA00AA5A99 /* Constants.swift in Sources */,
 				DA0227F91D33069A00AA5A99 /* Dating_App.xcdatamodeld in Sources */,
+				DA0228241D331A4F00AA5A99 /* SignUpViewController.swift in Sources */,
+				DA02282A1D331EEB00AA5A99 /* SignUpSocialViewController.swift in Sources */,
+				DA0228261D331AA700AA5A99 /* LogInViewController.swift in Sources */,
 				DA0227F11D33069A00AA5A99 /* AppDelegate.swift in Sources */,
+				DA02283E1D33218C00AA5A99 /* MBProgressHUD.m in Sources */,
+				DA0228371D331FFA00AA5A99 /* Extensions.swift in Sources */,
+				DA0228351D331FFA00AA5A99 /* RotateImage.swift in Sources */,
+				DA0228281D331EBA00AA5A99 /* PhotoViewController.swift in Sources */,
+				DA0228381D331FFA00AA5A99 /* AppState.swift in Sources */,
+				DA0228391D331FFA00AA5A99 /* AEXML.swift in Sources */,
+				DA0228341D331FFA00AA5A99 /* CommonUtils.swift in Sources */,
+				DA0228331D331FFA00AA5A99 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,23 +549,27 @@
 		};
 		DA0228191D33069A00AA5A99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E389BF352955A9D7D974BACC /* Pods-Dating App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Dating App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.harloch.Dating-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dustin/Desktop/Dating App/Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		DA02281A1D33069A00AA5A99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9484B0C7CF147D2B1A64BDFF /* Pods-Dating App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Dating App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.harloch.Dating-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/dustin/Desktop/Dating App/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -486,6 +638,7 @@
 				DA02281A1D33069A00AA5A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA02281B1D33069A00AA5A99 /* Build configuration list for PBXNativeTarget "Dating AppTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +647,7 @@
 				DA02281D1D33069A00AA5A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA02281E1D33069A00AA5A99 /* Build configuration list for PBXNativeTarget "Dating AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +656,7 @@
 				DA0228201D33069A00AA5A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
