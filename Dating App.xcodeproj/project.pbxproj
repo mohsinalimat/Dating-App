@@ -33,6 +33,7 @@
 		DA21C4141D38A77E00E6843E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21C4101D38A77E00E6843E /* Logger.swift */; };
 		DA21C4151D38A77E00E6843E /* VideoWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21C4111D38A77E00E6843E /* VideoWriter.swift */; };
 		DA21C4161D38A77E00E6843E /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21C4121D38A77E00E6843E /* VideoViewController.swift */; };
+		DA21C41B1D38B44C00E6843E /* InterestMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21C41A1D38B44C00E6843E /* InterestMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		DA21C4101D38A77E00E6843E /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		DA21C4111D38A77E00E6843E /* VideoWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoWriter.swift; sourceTree = "<group>"; };
 		DA21C4121D38A77E00E6843E /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		DA21C41A1D38B44C00E6843E /* InterestMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestMenuViewController.swift; sourceTree = "<group>"; };
 		E389BF352955A9D7D974BACC /* Pods-Dating App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dating App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dating App/Pods-Dating App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +163,7 @@
 			children = (
 				DA0227F01D33069A00AA5A99 /* AppDelegate.swift */,
 				DA0227F21D33069A00AA5A99 /* MainScreenViewController.swift */,
+				DA21C41A1D38B44C00E6843E /* InterestMenuViewController.swift */,
 				DA21C4171D38A79400E6843E /* Video */,
 				DA21C4181D38A87800E6843E /* Login/Signup */,
 				DA02282B1D331FE100AA5A99 /* Helper Files */,
@@ -445,6 +448,7 @@
 				DA0228351D331FFA00AA5A99 /* RotateImage.swift in Sources */,
 				DA0228281D331EBA00AA5A99 /* PhotoViewController.swift in Sources */,
 				DA0228381D331FFA00AA5A99 /* AppState.swift in Sources */,
+				DA21C41B1D38B44C00E6843E /* InterestMenuViewController.swift in Sources */,
 				DA21C4131D38A77E00E6843E /* CameraEngine.swift in Sources */,
 				DA0228391D331FFA00AA5A99 /* AEXML.swift in Sources */,
 				DA0228341D331FFA00AA5A99 /* CommonUtils.swift in Sources */,

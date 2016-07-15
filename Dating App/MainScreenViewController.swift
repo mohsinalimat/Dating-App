@@ -25,5 +25,9 @@ class MainScreenViewController: UIViewController {
         self.navigationController?.pushViewController(videoViewController, animated: true)
     }
 
+    @IBAction func interestsFeedButton(sender: AnyObject) {
+        let interestMenuTableViewController = self.storyboard?.instantiateViewControllerWithIdentifier("InterestMenuTableViewController") as! InterestMenuTableViewController!
+        self.navigationController?.pushViewController(interestMenuTableViewController, animated: true)
+    }
 }
 
