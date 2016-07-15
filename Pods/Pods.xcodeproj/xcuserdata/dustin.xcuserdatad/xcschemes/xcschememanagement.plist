@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>EZSwipeController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FBSDKCoreKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -59,6 +64,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SCRecorder.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>UICKeyChainStore.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -77,12 +87,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>30D7FCF8072F5D59AE1C98D94F9A6EC9</key>
+		<key>215B3AE58B65F7F24DF648BE945BB935</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3E81BE03D587198E0604E8737E2BC086</key>
+		<key>30D7FCF8072F5D59AE1C98D94F9A6EC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,7 +122,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9843C0B526F427A925766C545BC9A6A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9D0F2E5EA1B46A5D72FFD42B0B39DBBC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D168A90FC275B7C8B0DDF59974BBE8BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

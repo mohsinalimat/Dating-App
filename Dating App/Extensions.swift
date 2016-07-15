@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import EZSwipeController
 
 
 extension UIApplication {
@@ -19,5 +20,26 @@ extension UIApplication {
                 return
             }
         }
+    }
+}
+
+class MySwipeVC: EZSwipeController {
+    override func setupView() {
+        datasource = self
+    }
+}
+
+extension MySwipeVC: EZSwipeControllerDataSource {
+    func viewControllerData() -> [UIViewController] {
+        let redVC = UIViewController()
+        redVC.view.backgroundColor = UIColor.redColor()
+        
+        let blueVC = UIViewController()
+        blueVC.view.backgroundColor = UIColor.blueColor()
+        
+        let greenVC = UIViewController()
+        greenVC.view.backgroundColor = UIColor.greenColor()
+        
+        return [redVC, blueVC, greenVC]
     }
 }

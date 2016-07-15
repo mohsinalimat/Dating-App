@@ -20,6 +20,10 @@ class MainScreenViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func videoButton(sender: AnyObject) {
+        let videoViewController = self.storyboard?.instantiateViewControllerWithIdentifier("VideoViewController") as! VideoViewController!
+        self.navigationController?.pushViewController(videoViewController, animated: true)
+    }
 
 }
 

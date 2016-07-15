@@ -145,7 +145,8 @@ class FirebaseSignInViewController: UIViewController {
         }
         
     }
-    
+
+    /*
     @IBAction func twitterLogin(sender: AnyObject) {
         
         let manager = Twitter()
@@ -187,7 +188,7 @@ class FirebaseSignInViewController: UIViewController {
                 })
             }
         }
-    }
+    }*/
     
     func signedIn(user: FIRUser?) {
         let mainScreenViewController = self.storyboard?.instantiateViewControllerWithIdentifier("MainScreenViewController") as! MainScreenViewController!

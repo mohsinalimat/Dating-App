@@ -29,6 +29,10 @@
 		DA0228381D331FFA00AA5A99 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0228311D331FFA00AA5A99 /* AppState.swift */; };
 		DA0228391D331FFA00AA5A99 /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0228321D331FFA00AA5A99 /* AEXML.swift */; };
 		DA02283E1D33218C00AA5A99 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02283C1D33218C00AA5A99 /* MBProgressHUD.m */; };
+		DA21C4131D38A77E00E6843E /* CameraEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21C40F1D38A77E00E6843E /* CameraEngine.swift */; };
+		DA21C4141D38A77E00E6843E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21C4101D38A77E00E6843E /* Logger.swift */; };
+		DA21C4151D38A77E00E6843E /* VideoWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21C4111D38A77E00E6843E /* VideoWriter.swift */; };
+		DA21C4161D38A77E00E6843E /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA21C4121D38A77E00E6843E /* VideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +84,10 @@
 		DA02283A1D33202600AA5A99 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		DA02283B1D33218C00AA5A99 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		DA02283C1D33218C00AA5A99 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DA21C40F1D38A77E00E6843E /* CameraEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraEngine.swift; sourceTree = "<group>"; };
+		DA21C4101D38A77E00E6843E /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		DA21C4111D38A77E00E6843E /* VideoWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoWriter.swift; sourceTree = "<group>"; };
+		DA21C4121D38A77E00E6843E /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		E389BF352955A9D7D974BACC /* Pods-Dating App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dating App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dating App/Pods-Dating App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,19 +159,12 @@
 		DA0227EF1D33069A00AA5A99 /* Dating App */ = {
 			isa = PBXGroup;
 			children = (
-				DA02282B1D331FE100AA5A99 /* Helper Files */,
 				DA0227F01D33069A00AA5A99 /* AppDelegate.swift */,
 				DA0227F21D33069A00AA5A99 /* MainScreenViewController.swift */,
-				DA0228231D331A4F00AA5A99 /* SignUpViewController.swift */,
-				DA0228291D331EEB00AA5A99 /* SignUpSocialViewController.swift */,
-				DA0228251D331AA700AA5A99 /* LogInViewController.swift */,
-				DA0228271D331EBA00AA5A99 /* PhotoViewController.swift */,
-				DA0227F41D33069A00AA5A99 /* Main.storyboard */,
-				DA0227FA1D33069A00AA5A99 /* Assets.xcassets */,
-				DA0227FC1D33069A00AA5A99 /* LaunchScreen.storyboard */,
-				DA0227FF1D33069A00AA5A99 /* Info.plist */,
-				DA0228211D330BA100AA5A99 /* GoogleService-Info.plist */,
-				DA0227F71D33069A00AA5A99 /* Dating_App.xcdatamodeld */,
+				DA21C4171D38A79400E6843E /* Video */,
+				DA21C4181D38A87800E6843E /* Login/Signup */,
+				DA02282B1D331FE100AA5A99 /* Helper Files */,
+				DA21C4191D38A8AD00E6843E /* Storybord & PLists */,
 			);
 			path = "Dating App";
 			sourceTree = "<group>";
@@ -210,6 +211,41 @@
 			);
 			name = "MBProgressHUD-master";
 			path = "../../Snagged - Fixed/Connect App/Library/MBProgressHUD-master";
+			sourceTree = "<group>";
+		};
+		DA21C4171D38A79400E6843E /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				DA21C40F1D38A77E00E6843E /* CameraEngine.swift */,
+				DA21C4101D38A77E00E6843E /* Logger.swift */,
+				DA21C4111D38A77E00E6843E /* VideoWriter.swift */,
+				DA21C4121D38A77E00E6843E /* VideoViewController.swift */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		DA21C4181D38A87800E6843E /* Login/Signup */ = {
+			isa = PBXGroup;
+			children = (
+				DA0228231D331A4F00AA5A99 /* SignUpViewController.swift */,
+				DA0228291D331EEB00AA5A99 /* SignUpSocialViewController.swift */,
+				DA0228251D331AA700AA5A99 /* LogInViewController.swift */,
+				DA0228271D331EBA00AA5A99 /* PhotoViewController.swift */,
+			);
+			name = Login/Signup;
+			sourceTree = "<group>";
+		};
+		DA21C4191D38A8AD00E6843E /* Storybord & PLists */ = {
+			isa = PBXGroup;
+			children = (
+				DA0227F41D33069A00AA5A99 /* Main.storyboard */,
+				DA0227FA1D33069A00AA5A99 /* Assets.xcassets */,
+				DA0227FC1D33069A00AA5A99 /* LaunchScreen.storyboard */,
+				DA0227FF1D33069A00AA5A99 /* Info.plist */,
+				DA0228211D330BA100AA5A99 /* GoogleService-Info.plist */,
+				DA0227F71D33069A00AA5A99 /* Dating_App.xcdatamodeld */,
+			);
+			name = "Storybord & PLists";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA0227F31D33069A00AA5A99 /* MainScreenViewController.swift in Sources */,
+				DA21C4161D38A77E00E6843E /* VideoViewController.swift in Sources */,
 				DA0228361D331FFA00AA5A99 /* Constants.swift in Sources */,
 				DA0227F91D33069A00AA5A99 /* Dating_App.xcdatamodeld in Sources */,
 				DA0228241D331A4F00AA5A99 /* SignUpViewController.swift in Sources */,
@@ -403,12 +440,15 @@
 				DA0228261D331AA700AA5A99 /* LogInViewController.swift in Sources */,
 				DA0227F11D33069A00AA5A99 /* AppDelegate.swift in Sources */,
 				DA02283E1D33218C00AA5A99 /* MBProgressHUD.m in Sources */,
+				DA21C4141D38A77E00E6843E /* Logger.swift in Sources */,
 				DA0228371D331FFA00AA5A99 /* Extensions.swift in Sources */,
 				DA0228351D331FFA00AA5A99 /* RotateImage.swift in Sources */,
 				DA0228281D331EBA00AA5A99 /* PhotoViewController.swift in Sources */,
 				DA0228381D331FFA00AA5A99 /* AppState.swift in Sources */,
+				DA21C4131D38A77E00E6843E /* CameraEngine.swift in Sources */,
 				DA0228391D331FFA00AA5A99 /* AEXML.swift in Sources */,
 				DA0228341D331FFA00AA5A99 /* CommonUtils.swift in Sources */,
+				DA21C4151D38A77E00E6843E /* VideoWriter.swift in Sources */,
 				DA0228331D331FFA00AA5A99 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

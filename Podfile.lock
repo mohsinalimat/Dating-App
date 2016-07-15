@@ -20,6 +20,7 @@ PODS:
   - Bolts/AppLinks (1.8.1):
     - Bolts/Tasks
   - Bolts/Tasks (1.8.1)
+  - EZSwipeController (0.5)
   - Fabric (1.6.7)
   - FBSDKCoreKit (4.13.1):
     - Bolts (~> 1.7)
@@ -98,6 +99,7 @@ PODS:
     - Mixpanel/Mixpanel (= 3.0.0)
   - Mixpanel/Mixpanel (3.0.0)
   - OAuthSwift (0.5.2)
+  - SCRecorder (2.7.0)
   - TwitterCore (2.3.0):
     - Fabric
   - TwitterKit (2.3.0):
@@ -105,6 +107,7 @@ PODS:
   - UICKeyChainStore (2.1.0)
 
 DEPENDENCIES:
+  - EZSwipeController
   - Fabric
   - FBSDKCoreKit
   - FBSDKLoginKit
@@ -119,12 +122,14 @@ DEPENDENCIES:
   - InstagramKit/UICKeyChainStore
   - Mixpanel
   - OAuthSwift (~> 0.5.0)
+  - SCRecorder
   - TwitterCore
   - TwitterKit
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Bolts: 89c0c6dd1b9c975a3452a62d57a6be6739e5f433
+  EZSwipeController: 01cc43b319e133b6dbfb25bfdc78617a1560e952
   Fabric: caf7580c725e64db144f610ac65cd60956911dc7
   FBSDKCoreKit: 2807fe0da2ddb49a1469da6d6ff597f99912980f
   FBSDKLoginKit: 6d350cb6a22d6956e9d078885de6ee8a0ebc51b4
@@ -147,10 +152,11 @@ SPEC CHECKSUMS:
   InstagramKit: 402d6bba375357b548039de08eea19a1b8716354
   Mixpanel: ac92056ee35a961362513ba11049e67cffcaa1f1
   OAuthSwift: 1ef042d4362e755e24a78f158d817245641a5d24
+  SCRecorder: bbb521dbc222908876ec9cd9156bbc8a893bed44
   TwitterCore: 817eae3e291fa4125b47789e26a4f6f024115c1f
   TwitterKit: 8a383da8d9c21b0423716381ea8bbfce20622d91
   UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
 
-PODFILE CHECKSUM: af7da627e430a7edc9bc61346f43de51a7485a03
+PODFILE CHECKSUM: eface0c89b3de32bd6e46909de5303fdcde75aef
 
 COCOAPODS: 1.0.1

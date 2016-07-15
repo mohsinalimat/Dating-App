@@ -8,7 +8,7 @@
         <!--Main Screen View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainScreenViewController" customModule="Dating_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainScreenViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="MainScreenViewController" customModule="Dating_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,6 +16,15 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCV-yy-Fx8">
+                                <rect key="frame" x="144" y="157" width="86" height="30"/>
+                                <state key="normal" title="Take a video"/>
+                                <connections>
+                                    <action selector="videoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d3f-eU-EQJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -187,9 +196,9 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="1tI-er-lYm"/>
                                 <exclude reference="j3Z-BL-Qf7"/>
                                 <exclude reference="rFv-Ji-1Gu"/>
-                                <exclude reference="1tI-er-lYm"/>
                             </mask>
                         </variation>
                     </view>
@@ -229,8 +238,8 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="WDV-Bd-AWD"/>
                                         <exclude reference="AeR-if-QJt"/>
+                                        <exclude reference="WDV-Bd-AWD"/>
                                     </mask>
                                 </variation>
                             </textField>
@@ -387,28 +396,28 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="cDn-n2-aAt"/>
-                                <exclude reference="MGI-D8-pcO"/>
                                 <exclude reference="5Bv-A8-Ef2"/>
+                                <exclude reference="MGI-D8-pcO"/>
+                                <exclude reference="cDn-n2-aAt"/>
                                 <exclude reference="66d-5i-Ore"/>
-                                <exclude reference="ca1-rb-ga5"/>
                                 <exclude reference="buG-hC-0Wu"/>
-                                <exclude reference="yhH-IH-53F"/>
+                                <exclude reference="ca1-rb-ga5"/>
                                 <exclude reference="8I5-Xp-WTH"/>
                                 <exclude reference="fDr-6R-cRh"/>
+                                <exclude reference="yhH-IH-53F"/>
                                 <exclude reference="Nn4-dj-7Ow"/>
                                 <exclude reference="PgA-VV-C0H"/>
                                 <exclude reference="xyb-Ir-v8x"/>
-                                <exclude reference="Z1d-6h-kNj"/>
                                 <exclude reference="BSs-1L-IQr"/>
                                 <exclude reference="BSu-2F-aew"/>
+                                <exclude reference="Z1d-6h-kNj"/>
                                 <exclude reference="vVM-bX-5HN"/>
-                                <exclude reference="arg-V5-2XZ"/>
                                 <exclude reference="KaY-xC-yjD"/>
                                 <exclude reference="UuS-fh-ZDv"/>
-                                <exclude reference="sRm-O1-tce"/>
-                                <exclude reference="pam-sn-gGn"/>
+                                <exclude reference="arg-V5-2XZ"/>
                                 <exclude reference="7q1-Ur-U66"/>
+                                <exclude reference="pam-sn-gGn"/>
+                                <exclude reference="sRm-O1-tce"/>
                             </mask>
                         </variation>
                     </view>
@@ -504,6 +513,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OF8-I4-Pvx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2103.5" y="-1387.5"/>
+        </scene>
+        <!--Video View Controller-->
+        <scene sceneID="lJ6-Mk-a1o">
+            <objects>
+                <viewController storyboardIdentifier="VideoViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HKU-Kv-nQG" customClass="VideoViewController" customModule="Dating_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O8M-Y5-DhJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fqv-3P-zib"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l9Y-3g-XFI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zGR-fn-Rlr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-383.5" y="-594.5"/>
         </scene>
     </scenes>
     <resources>
