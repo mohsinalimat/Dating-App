@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xns-MO-qhc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FgD-02-wBI">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -73,6 +73,9 @@
                         </connections>
                     </tableView>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tableView" destination="kNg-bw-ctI" id="BHW-es-GL1"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w4f-mc-JvB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -577,6 +580,62 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zGR-fn-Rlr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-383.5" y="-594.5"/>
+        </scene>
+        <!--Interest View Controller-->
+        <scene sceneID="mhc-5L-nQN">
+            <objects>
+                <viewController storyboardIdentifier="InterestViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FgD-02-wBI" customClass="InterestViewController" customModule="Dating_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fiN-wX-aRO"/>
+                        <viewControllerLayoutGuide type="bottom" id="dRQ-Gp-gsm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V4e-hX-YpS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="109" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="h8a-Re-rOI">
+                                <rect key="frame" x="0.0" y="33" width="375" height="535"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomTableViewCell" rowHeight="109" id="1kD-Hc-msv" customClass="CustomTableViewCell" customModule="Dating_App" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="22" width="375" height="109"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1kD-Hc-msv" id="cx7-ve-2va">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="108.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o7p-EV-3gU">
+                                                    <rect key="frame" x="21" y="30" width="52" height="49"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yp1-PH-02W">
+                                                    <rect key="frame" x="106" y="16" width="261" height="77"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageVW" destination="o7p-EV-3gU" id="vJL-v7-bJf"/>
+                                            <outlet property="lblName" destination="Yp1-PH-02W" id="w0q-gt-Tgb"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="FgD-02-wBI" id="NvQ-xy-yXR"/>
+                                    <outlet property="delegate" destination="FgD-02-wBI" id="2Uf-hC-5am"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tableView" destination="h8a-Re-rOI" id="JXv-7K-80Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v7D-Z1-ubt" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="158.5" y="-158.5"/>
         </scene>
     </scenes>
     <resources>
