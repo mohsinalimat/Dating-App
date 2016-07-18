@@ -68,8 +68,8 @@ class PhotoViewController: UIViewController, UITextFieldDelegate, UINavigationCo
     }
     
     @IBAction func nextButton(sender: AnyObject) {
-        let signUpSocialViewController = self.storyboard?.instantiateViewControllerWithIdentifier("SignUpSocialViewController") as! SignUpSocialViewController!
-        self.navigationController?.pushViewController(signUpSocialViewController, animated: true)
+        let mainScreenViewController = self.storyboard?.instantiateViewControllerWithIdentifier("MainScreenViewController") as! MainScreenViewController!
+        self.navigationController?.pushViewController(mainScreenViewController, animated: true)
     }
     
     func scaleImage(image: UIImage, maxDimension: CGFloat) -> UIImage {

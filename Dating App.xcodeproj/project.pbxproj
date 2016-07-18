@@ -50,6 +50,7 @@
 		DA9EBD341D3C6E2500A71CAE /* Tech.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9EBD261D3C6E2500A71CAE /* Tech.png */; };
 		DA9EBD351D3C6E2500A71CAE /* Travel.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9EBD271D3C6E2500A71CAE /* Travel.png */; };
 		DA9EBD371D3C6F4600A71CAE /* Art.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9EBD361D3C6F4600A71CAE /* Art.png */; };
+		DA9EBD391D3C721000A71CAE /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9EBD381D3C721000A71CAE /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,7 @@
 		DA9EBD261D3C6E2500A71CAE /* Tech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tech.png; sourceTree = "<group>"; };
 		DA9EBD271D3C6E2500A71CAE /* Travel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Travel.png; sourceTree = "<group>"; };
 		DA9EBD361D3C6F4600A71CAE /* Art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Art.png; sourceTree = "<group>"; };
+		DA9EBD381D3C721000A71CAE /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		E389BF352955A9D7D974BACC /* Pods-Dating App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dating App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dating App/Pods-Dating App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,6 +199,7 @@
 				DA0227F21D33069A00AA5A99 /* MainScreenViewController.swift */,
 				DA9EBD171D3C69C500A71CAE /* InterestViewController.swift */,
 				DA9EBD151D3C68B000A71CAE /* CustomTableViewCell.swift */,
+				DA9EBD381D3C721000A71CAE /* NewViewController.swift */,
 				DA21C4171D38A79400E6843E /* Video */,
 				DA21C4181D38A87800E6843E /* Login/Signup */,
 				DA02282B1D331FE100AA5A99 /* Helper Files */,
@@ -510,6 +513,7 @@
 				DA9EBD161D3C68B000A71CAE /* CustomTableViewCell.swift in Sources */,
 				DA0228361D331FFA00AA5A99 /* Constants.swift in Sources */,
 				DA0227F91D33069A00AA5A99 /* Dating_App.xcdatamodeld in Sources */,
+				DA9EBD391D3C721000A71CAE /* NewViewController.swift in Sources */,
 				DA0228241D331A4F00AA5A99 /* SignUpViewController.swift in Sources */,
 				DA02282A1D331EEB00AA5A99 /* SignUpSocialViewController.swift in Sources */,
 				DA9EBD181D3C69C500A71CAE /* InterestViewController.swift in Sources */,

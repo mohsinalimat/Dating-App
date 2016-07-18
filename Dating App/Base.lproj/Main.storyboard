@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FgD-02-wBI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xns-MO-qhc">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -119,8 +119,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGB-zb-RVn">
-                                <rect key="frame" x="94" y="517" width="187" height="30"/>
-                                <state key="normal" title="Add Social Media Accounts"/>
+                                <rect key="frame" x="124" y="517" width="127" height="30"/>
+                                <state key="normal" title="Finish Registration"/>
                                 <connections>
                                     <action selector="nextButton:" destination="JNj-SP-Qdv" eventType="touchUpInside" id="zsb-wF-iPm"/>
                                 </connections>
@@ -646,11 +646,42 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="tableView" destination="h8a-Re-rOI" id="JXv-7K-80Z"/>
+                        <segue destination="3AP-pK-yiC" kind="show" identifier="VideoFeed" id="lOL-cN-0p7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v7D-Z1-ubt" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="158.5" y="-158.5"/>
+        </scene>
+        <!--New View Controller-->
+        <scene sceneID="od0-jx-3jP">
+            <objects>
+                <viewController storyboardIdentifier="NewViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3AP-pK-yiC" customClass="NewViewController" customModule="Dating_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F39-SI-twn"/>
+                        <viewControllerLayoutGuide type="bottom" id="aBJ-fU-igS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DEw-tE-nSZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poc-G7-Ubz">
+                                <rect key="frame" x="166" y="323" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="poc-G7-Ubz" id="idO-3z-7MM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aYA-XA-91b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="658.5" y="-158.5"/>
         </scene>
     </scenes>
     <resources>
