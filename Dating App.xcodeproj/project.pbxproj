@@ -49,6 +49,7 @@
 		DA9EBD331D3C6E2500A71CAE /* Religion.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9EBD251D3C6E2500A71CAE /* Religion.png */; };
 		DA9EBD341D3C6E2500A71CAE /* Tech.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9EBD261D3C6E2500A71CAE /* Tech.png */; };
 		DA9EBD351D3C6E2500A71CAE /* Travel.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9EBD271D3C6E2500A71CAE /* Travel.png */; };
+		DA9EBD371D3C6F4600A71CAE /* Art.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9EBD361D3C6F4600A71CAE /* Art.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		DA9EBD251D3C6E2500A71CAE /* Religion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Religion.png; sourceTree = "<group>"; };
 		DA9EBD261D3C6E2500A71CAE /* Tech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tech.png; sourceTree = "<group>"; };
 		DA9EBD271D3C6E2500A71CAE /* Travel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Travel.png; sourceTree = "<group>"; };
+		DA9EBD361D3C6F4600A71CAE /* Art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Art.png; sourceTree = "<group>"; };
 		E389BF352955A9D7D974BACC /* Pods-Dating App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dating App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dating App/Pods-Dating App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -299,6 +301,7 @@
 				DA9EBD241D3C6E2500A71CAE /* Photography.png */,
 				DA9EBD251D3C6E2500A71CAE /* Religion.png */,
 				DA9EBD261D3C6E2500A71CAE /* Tech.png */,
+				DA9EBD361D3C6F4600A71CAE /* Art.png */,
 				DA9EBD271D3C6E2500A71CAE /* Travel.png */,
 			);
 			name = Pictures;
@@ -422,6 +425,7 @@
 				DA9EBD341D3C6E2500A71CAE /* Tech.png in Resources */,
 				DA9EBD331D3C6E2500A71CAE /* Religion.png in Resources */,
 				DA9EBD2A1D3C6E2500A71CAE /* Fashion.png in Resources */,
+				DA9EBD371D3C6F4600A71CAE /* Art.png in Resources */,
 				DA0228221D330BA100AA5A99 /* GoogleService-Info.plist in Resources */,
 				DA9EBD2D1D3C6E2500A71CAE /* Local.png in Resources */,
 				DA9EBD2F1D3C6E2500A71CAE /* Music.png in Resources */,

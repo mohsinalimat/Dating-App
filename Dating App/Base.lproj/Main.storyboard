@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Main Screen View Controller-->
@@ -604,15 +605,29 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="108.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o7p-EV-3gU">
-                                                    <rect key="frame" x="21" y="30" width="52" height="49"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o7p-EV-3gU">
+                                                    <rect key="frame" x="21" y="16" width="92" height="77"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="77" id="ap6-QI-dqq"/>
+                                                        <constraint firstAttribute="width" constant="92" id="cUz-0o-AnF"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yp1-PH-02W">
-                                                    <rect key="frame" x="106" y="16" width="261" height="77"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yp1-PH-02W">
+                                                    <rect key="frame" x="135" y="16" width="185" height="77"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="77" id="InP-Xd-nAD"/>
+                                                        <constraint firstAttribute="width" constant="185" id="LHM-3Z-lsI"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Yp1-PH-02W" firstAttribute="top" secondItem="cx7-ve-2va" secondAttribute="topMargin" constant="8" id="7KU-Tt-WXS"/>
+                                                <constraint firstItem="o7p-EV-3gU" firstAttribute="leading" secondItem="cx7-ve-2va" secondAttribute="leadingMargin" constant="13" id="DeM-Lf-uYg"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Yp1-PH-02W" secondAttribute="trailing" constant="47" id="Re7-Xk-b6i"/>
+                                                <constraint firstItem="o7p-EV-3gU" firstAttribute="top" secondItem="cx7-ve-2va" secondAttribute="topMargin" constant="8" id="rik-MN-rKU"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="imageVW" destination="o7p-EV-3gU" id="vJL-v7-bJf"/>
