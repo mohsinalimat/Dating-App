@@ -51,6 +51,7 @@
 		DA9EBD351D3C6E2500A71CAE /* Travel.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9EBD271D3C6E2500A71CAE /* Travel.png */; };
 		DA9EBD371D3C6F4600A71CAE /* Art.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9EBD361D3C6F4600A71CAE /* Art.png */; };
 		DA9EBD391D3C721000A71CAE /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9EBD381D3C721000A71CAE /* NewViewController.swift */; };
+		DA9EBD3B1D3C888100A71CAE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9EBD3A1D3C888100A71CAE /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		DA9EBD271D3C6E2500A71CAE /* Travel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Travel.png; sourceTree = "<group>"; };
 		DA9EBD361D3C6F4600A71CAE /* Art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Art.png; sourceTree = "<group>"; };
 		DA9EBD381D3C721000A71CAE /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		DA9EBD3A1D3C888100A71CAE /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		E389BF352955A9D7D974BACC /* Pods-Dating App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dating App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dating App/Pods-Dating App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -237,6 +239,7 @@
 				DA0228301D331FFA00AA5A99 /* Extensions.swift */,
 				DA0228311D331FFA00AA5A99 /* AppState.swift */,
 				DA0228321D331FFA00AA5A99 /* AEXML.swift */,
+				DA9EBD3A1D3C888100A71CAE /* Player.swift */,
 				DA02283D1D33218C00AA5A99 /* MBProgressHUD-master */,
 			);
 			name = "Helper Files";
@@ -512,6 +515,7 @@
 				DA21C4161D38A77E00E6843E /* VideoViewController.swift in Sources */,
 				DA9EBD161D3C68B000A71CAE /* CustomTableViewCell.swift in Sources */,
 				DA0228361D331FFA00AA5A99 /* Constants.swift in Sources */,
+				DA9EBD3B1D3C888100A71CAE /* Player.swift in Sources */,
 				DA0227F91D33069A00AA5A99 /* Dating_App.xcdatamodeld in Sources */,
 				DA9EBD391D3C721000A71CAE /* NewViewController.swift in Sources */,
 				DA0228241D331A4F00AA5A99 /* SignUpViewController.swift in Sources */,

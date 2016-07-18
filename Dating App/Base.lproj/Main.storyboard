@@ -41,47 +41,6 @@
             </objects>
             <point key="canvasLocation" x="-383.5" y="-1387.5"/>
         </scene>
-        <!--Interest Menu Table View Controller-->
-        <scene sceneID="dqz-Cr-73q">
-            <objects>
-                <tableViewController storyboardIdentifier="InterestMenuTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y3B-fm-Vi3" customClass="InterestMenuTableViewController" customModule="Dating_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="kNg-bw-ctI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="vB9-sh-0aF" style="IBUITableViewCellStyleDefault" id="ri3-nr-gls">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ri3-nr-gls" id="TCW-qW-vjK">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vB9-sh-0aF">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="Y3B-fm-Vi3" id="2Lo-bZ-fxA"/>
-                            <outlet property="delegate" destination="Y3B-fm-Vi3" id="JfL-Z4-bDc"/>
-                        </connections>
-                    </tableView>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <outlet property="tableView" destination="kNg-bw-ctI" id="BHW-es-GL1"/>
-                    </connections>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="w4f-mc-JvB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="196.5" y="-1387.5"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="SsP-Ln-85T">
             <objects>
@@ -651,7 +610,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v7D-Z1-ubt" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="158.5" y="-158.5"/>
+            <point key="canvasLocation" x="148.5" y="-1387.5"/>
         </scene>
         <!--New View Controller-->
         <scene sceneID="od0-jx-3jP">
@@ -665,14 +624,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poc-G7-Ubz">
-                                <rect key="frame" x="166" y="323" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poc-G7-Ubz">
+                                <rect key="frame" x="41" y="305" width="292" height="58"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="poc-G7-Ubz" firstAttribute="centerX" secondItem="DEw-tE-nSZ" secondAttribute="centerX" id="33B-33-j6w"/>
+                            <constraint firstItem="poc-G7-Ubz" firstAttribute="centerY" secondItem="DEw-tE-nSZ" secondAttribute="centerY" id="QZH-YR-fHC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="poc-G7-Ubz" secondAttribute="trailing" constant="22" id="lgy-6a-x25"/>
+                            <constraint firstItem="poc-G7-Ubz" firstAttribute="leading" secondItem="DEw-tE-nSZ" secondAttribute="leadingMargin" constant="21" id="lwO-yV-h3b"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
@@ -681,7 +646,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aYA-XA-91b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="658.5" y="-158.5"/>
+            <point key="canvasLocation" x="644.5" y="-1387.5"/>
         </scene>
     </scenes>
     <resources>

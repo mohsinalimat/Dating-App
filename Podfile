@@ -19,5 +19,6 @@ pod 'InstagramKit/UICKeyChainStore'
 pod 'GTMOAuth2', '~> 1.1.0'
 pod 'OAuthSwift', '~> 0.5.0'
 pod 'SCRecorder'
+pod 'Player'
 
 end
