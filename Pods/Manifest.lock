@@ -94,6 +94,9 @@ PODS:
   - InstagramKit/UICKeyChainStore (3.8):
     - AFNetworking (~> 3.0)
     - UICKeyChainStore (~> 2.0)
+  - JSQMessagesViewController (7.3.3):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
   - Mixpanel (3.0.0):
     - Mixpanel/Mixpanel (= 3.0.0)
   - Mixpanel/Mixpanel (3.0.0)
@@ -119,6 +122,7 @@ DEPENDENCIES:
   - GTMOAuth2 (~> 1.1.0)
   - InstagramKit (~> 3.0)
   - InstagramKit/UICKeyChainStore
+  - JSQMessagesViewController
   - Mixpanel
   - OAuthSwift (~> 0.5.0)
   - Player
@@ -149,6 +153,8 @@ SPEC CHECKSUMS:
   GTMOAuth2: bdb12f3e0d2110bfe585f6151230b883beb4d042
   GTMSessionFetcher: 174bc61d5238f81f9ddb807b0b0170420f67de85
   InstagramKit: 402d6bba375357b548039de08eea19a1b8716354
+  JSQMessagesViewController: 0ee3f80237268192a3e8337fd0d787f1a1bf5a7a
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
   Mixpanel: ac92056ee35a961362513ba11049e67cffcaa1f1
   OAuthSwift: 1ef042d4362e755e24a78f158d817245641a5d24
   Player: 575e1e8cde1e6b7cd62d6d6bc06e492d02e62b9e
@@ -157,6 +163,6 @@ SPEC CHECKSUMS:
   TwitterKit: 8a383da8d9c21b0423716381ea8bbfce20622d91
   UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
 
-PODFILE CHECKSUM: 90e6715df0a57bdf0777d81c57665e0990b2be81
+PODFILE CHECKSUM: 206b1435b08673ff96217936fc72ec9f1fc9fd0b
 
 COCOAPODS: 1.0.1

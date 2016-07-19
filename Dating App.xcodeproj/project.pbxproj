@@ -52,6 +52,10 @@
 		DA9EBD371D3C6F4600A71CAE /* Art.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9EBD361D3C6F4600A71CAE /* Art.png */; };
 		DA9EBD391D3C721000A71CAE /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9EBD381D3C721000A71CAE /* NewViewController.swift */; };
 		DA9EBD3B1D3C888100A71CAE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9EBD3A1D3C888100A71CAE /* Player.swift */; };
+		DA9EBDCF1D3C943C00A71CAE /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9EBDCE1D3C943C00A71CAE /* MessageViewController.swift */; };
+		DAA5925E1D3ED975004C9D0A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA5925D1D3ED975004C9D0A /* SettingsViewController.swift */; };
+		DAA592601D3EDBBD004C9D0A /* SoLOz.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA5925F1D3EDBBD004C9D0A /* SoLOz.png */; };
+		DAA592621D3EDBF1004C9D0A /* Create-New.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA592611D3EDBF1004C9D0A /* Create-New.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +130,10 @@
 		DA9EBD361D3C6F4600A71CAE /* Art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Art.png; sourceTree = "<group>"; };
 		DA9EBD381D3C721000A71CAE /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		DA9EBD3A1D3C888100A71CAE /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DA9EBDCE1D3C943C00A71CAE /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		DAA5925D1D3ED975004C9D0A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DAA5925F1D3EDBBD004C9D0A /* SoLOz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoLOz.png; sourceTree = "<group>"; };
+		DAA592611D3EDBF1004C9D0A /* Create-New.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Create-New.png"; sourceTree = "<group>"; };
 		E389BF352955A9D7D974BACC /* Pods-Dating App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dating App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dating App/Pods-Dating App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -202,6 +210,8 @@
 				DA9EBD171D3C69C500A71CAE /* InterestViewController.swift */,
 				DA9EBD151D3C68B000A71CAE /* CustomTableViewCell.swift */,
 				DA9EBD381D3C721000A71CAE /* NewViewController.swift */,
+				DA9EBDCE1D3C943C00A71CAE /* MessageViewController.swift */,
+				DAA5925D1D3ED975004C9D0A /* SettingsViewController.swift */,
 				DA21C4171D38A79400E6843E /* Video */,
 				DA21C4181D38A87800E6843E /* Login/Signup */,
 				DA02282B1D331FE100AA5A99 /* Helper Files */,
@@ -297,6 +307,8 @@
 				DA9EBD1A1D3C6E2500A71CAE /* Active Lifestyle.png */,
 				DA9EBD1B1D3C6E2500A71CAE /* Automotive.png */,
 				DA9EBD1C1D3C6E2500A71CAE /* Fashion.png */,
+				DAA5925F1D3EDBBD004C9D0A /* SoLOz.png */,
+				DAA592611D3EDBF1004C9D0A /* Create-New.png */,
 				DA9EBD1D1D3C6E2500A71CAE /* Food.png */,
 				DA9EBD1E1D3C6E2500A71CAE /* Literature.png */,
 				DA9EBD1F1D3C6E2500A71CAE /* Local.png */,
@@ -427,12 +439,14 @@
 				DA9EBD301D3C6E2500A71CAE /* Nightlife.png in Resources */,
 				DA9EBD291D3C6E2500A71CAE /* Automotive.png in Resources */,
 				DA9EBD2E1D3C6E2500A71CAE /* Logo.png in Resources */,
+				DAA592601D3EDBBD004C9D0A /* SoLOz.png in Resources */,
 				DA9EBD2B1D3C6E2500A71CAE /* Food.png in Resources */,
 				DA9EBD341D3C6E2500A71CAE /* Tech.png in Resources */,
 				DA9EBD331D3C6E2500A71CAE /* Religion.png in Resources */,
 				DA9EBD2A1D3C6E2500A71CAE /* Fashion.png in Resources */,
 				DA9EBD371D3C6F4600A71CAE /* Art.png in Resources */,
 				DA0228221D330BA100AA5A99 /* GoogleService-Info.plist in Resources */,
+				DAA592621D3EDBF1004C9D0A /* Create-New.png in Resources */,
 				DA9EBD2D1D3C6E2500A71CAE /* Local.png in Resources */,
 				DA9EBD2F1D3C6E2500A71CAE /* Music.png in Resources */,
 				DA0227F61D33069A00AA5A99 /* Main.storyboard in Resources */,
@@ -521,6 +535,7 @@
 				DA0228241D331A4F00AA5A99 /* SignUpViewController.swift in Sources */,
 				DA02282A1D331EEB00AA5A99 /* SignUpSocialViewController.swift in Sources */,
 				DA9EBD181D3C69C500A71CAE /* InterestViewController.swift in Sources */,
+				DA9EBDCF1D3C943C00A71CAE /* MessageViewController.swift in Sources */,
 				DA0228261D331AA700AA5A99 /* LogInViewController.swift in Sources */,
 				DA0227F11D33069A00AA5A99 /* AppDelegate.swift in Sources */,
 				DA02283E1D33218C00AA5A99 /* MBProgressHUD.m in Sources */,
@@ -532,6 +547,7 @@
 				DA21C4131D38A77E00E6843E /* CameraEngine.swift in Sources */,
 				DA0228391D331FFA00AA5A99 /* AEXML.swift in Sources */,
 				DA0228341D331FFA00AA5A99 /* CommonUtils.swift in Sources */,
+				DAA5925E1D3ED975004C9D0A /* SettingsViewController.swift in Sources */,
 				DA21C4151D38A77E00E6843E /* VideoWriter.swift in Sources */,
 				DA0228331D331FFA00AA5A99 /* Helper.swift in Sources */,
 			);

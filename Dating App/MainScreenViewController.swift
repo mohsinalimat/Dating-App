@@ -29,5 +29,9 @@ class MainScreenViewController: UIViewController {
         let interestMenuTableViewController = self.storyboard?.instantiateViewControllerWithIdentifier("InterestViewController") as! InterestViewController!
         self.navigationController?.pushViewController(interestMenuTableViewController, animated: true)
     }
+    @IBAction func settingsButton(sender: AnyObject) {
+        let settingsViewController = self.storyboard?.instantiateViewControllerWithIdentifier("SettingsViewController") as! SettingsViewController!
+        self.navigationController?.pushViewController(settingsViewController, animated: true)
+    }
 }
 

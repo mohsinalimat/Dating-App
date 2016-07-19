@@ -4,11 +4,13 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5C880BE1B99588B39156D68833EAB2407BF6A594" : 0,
     "6E7BA7BAA326271B451ACF7C68A3096894D862F1" : 0,
     "C5875CE1D81C2D48A4EA808C2143D36D18588DD0" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FCD0C994-80B4-4E66-9442-1771360D04F7",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5C880BE1B99588B39156D68833EAB2407BF6A594" : "..\/ios-swift-chat-example",
     "6E7BA7BAA326271B451ACF7C68A3096894D862F1" : "Snagged%20-%20Fixed\/",
     "C5875CE1D81C2D48A4EA808C2143D36D18588DD0" : "Dating%20App\/"
   },
@@ -16,6 +18,11 @@
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Dating App.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/firebase\/ios-swift-chat-example",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5C880BE1B99588B39156D68833EAB2407BF6A594"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/github.com\/Harloch\/Snagged",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
